@@ -1,0 +1,72 @@
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  body {
+    background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat;
+    font-family: "Open Sans",  Impact;
+   
+    min-width: 410px;
+    background-color: black;
+    background-image: url("/Image/fondo1.jpg");
+    background-repeat: no-repeat;       
+    background-size: cover;
+    background-position: center;    
+    margin: 0px;
+    text-align: center;        
+
+}
+
+video{
+    width:500px;
+    height:350px;
+}
+
+  #panel-video-main {
+    width: 500px;
+    height:350px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 0px 40px 0px white;
+    border-style: none;    
+    border-radius: 20px;   
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    align-content: center;
+}
+  
+.area{
+  text-align:center;
+  font-size:6.5em;
+  color:#fff;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+  
