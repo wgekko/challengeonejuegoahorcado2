@@ -10,7 +10,7 @@
 body {
     min-width: 410px;
     background-color: black;
-    background-image: url("/Image/fondo1.jpg");
+    background-image: url("../Image/fondo1.jpg");
     background-repeat: no-repeat;       
     background-size: cover;
     background-position: center;    
